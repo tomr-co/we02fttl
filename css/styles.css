@@ -1,0 +1,950 @@
+body {
+	margin: 0px auto;
+}
+
+nav	{
+	padding-top: 20px;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	margin-left: 25px;
+
+}
+
+
+nav li:nth-child(1) {
+	float: left;
+	margin-left: 1.5%;
+} 
+
+nav a:nth-child(1):hover {
+
+}
+
+nav a {
+	color: #767676;
+	text-decoration: none;
+	font-family: 'open sans';
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+
+}
+
+nav a:hover {
+	color: #000;
+	border-bottom: 3px solid #000;
+}
+
+nav ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#book-now {
+	color: white;
+	padding: 4px 10px;
+	background: #db3b32;
+	margin-right: 1.5%;
+
+}
+
+#book-now:hover {
+	border-bottom: none;
+	background-color: #000;
+}
+
+
+}
+
+nav li:not(:nth-child(1)) {
+	line-height: 59px;
+}
+
+nav ul{
+	text-align: right;
+	padding: 0px;
+	width: 1302px;
+	margin: 0px auto;
+	padding: 0 32px;
+}
+
+nav img{
+	text-align: left;
+}
+
+/* Social links nav */
+#social {
+	clear: both;
+}
+
+#social li {
+	display: block;
+	text-align:left;
+	width: 36px;
+	margin-top: 0px;
+	margin-left: 1.5%;
+	padding-top: 10px;
+}
+
+#social li:nth-child(1) {
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+#social li a:hover {
+	border-bottom: none;
+}
+
+
+#hero-header {
+	background-image: url(https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-homepage.jpg?17623171769773294158);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+#hero-header-1 {
+	background-image: url(https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-adventure-2.jpg?3052341155243201538);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+#hero-header-2 {
+	background-image: url(https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-sightseeing.jpg?7640116378557162397);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+#hero-header-3 {
+	background-image: url(https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-one-off-charter.jpg?10968208927901293329);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+#hero-header-4 {
+	background-image: url(https://cdn.shopify.com/s/files/1/0397/1381/files/hero-image-supply-drops.jpg?3094722245341379434);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+
+#scroll-icon {
+	position: absolute;
+	top: 85%;
+	left: calc(50% - 20.5px); /* always aligns to the left of the image, we then take away half the size of the image to perfectly center*/ 
+}
+
+/*About styles / section , Header, Paragraph */
+
+#about-section {
+	background-color: #efefef;
+	padding-top: 35px;
+}
+
+section {
+	padding: 0px;
+	width: 1302px;
+	margin: 0px auto;
+	padding: 0 32px;
+}
+
+h1 {
+	font-family: "open-sans" , sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-top: 45px;
+}
+
+h2 {
+	font-family: "open-sans",sans-serif;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'open-sans', sans-serif;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 0px;
+}
+
+h4 {
+	font-family: 'open-sans', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	display:block;
+	padding-bottom: 10px; 
+	padding-top: 20px;
+}
+
+h5 {
+	font-family: 'open-sans', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	display:block;
+	padding-bottom: 40px; 
+}
+
+p {
+	font-family: "open-sans" , sans-serif;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+a {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.about-col {
+	box-sizing: border-box;
+	width: 33.33%;
+	padding: 100px 35px;
+	margin: 0 auto;
+	float: left;
+}
+
+.about-col img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+#about-section:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/* Experiences Styles */
+
+#experiences {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#experiences h1 {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+#xpp  {
+	margin-bottom: 80px;
+}
+
+.products {
+	width: 30%;
+	box-sizing: border-box;
+	background-color: #efefef;
+	padding-bottom: 35px;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 3%;
+}
+
+.products:nth-child(1) {
+	margin-left: 0%;
+	background-color: purple;
+}
+
+.products:nth-child(3) {
+	margin-right: 0%;
+	background-color: red;
+}
+
+.products img {
+	width: 100%;
+}
+
+.products a{
+	margin: 0 auto;
+	padding: 5px 30px;
+	border: 4px solid #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	margin-left: 120px; /* always aligns to the left of the image, we then take away half the size of the image to perfectly center*/ 
+}
+
+.products a:hover {
+	background-color: #000;
+	color: #efefef;
+	font-weight: bold;
+}
+
+iframe {
+	padding-left: 20px;
+	margin-right: 19.5px;
+	float: left;
+
+}
+
+
+
+#experiences:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+.products p {
+	padding: 0 15px;
+	margin-top: 10px;
+}
+/* Gallery Styles */
+
+#gallery {
+	padding-top: 45px;
+}
+
+#gallery h1{
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+#gallery p {
+	margin-top: 30px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	font-size:15px;
+	
+}
+
+.col1 ,
+.col2 ,
+.col3 {
+	width: 30%;
+	box-sizing: border-box;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.col1 img,
+.col2 img,
+.col3 img {
+	width: 100%;
+	margin-bottom: 39px;
+}
+
+.col1 ,
+.col2 ,
+.col3 {
+	height: 1117px;
+	padding-top: 50px;
+}
+
+.col1 img:nth-child(1) {
+	height: 60%;
+}
+
+.col1 img:nth-child(2) {
+	height: calc(40% + 42.5px);
+}
+
+.col2 img:nth-child(1) {
+	height: 35%;
+}
+
+.col2 img:nth-child(2) {
+	height: 45%;
+}
+
+.col2 img:nth-child(3) {
+	height:  20%;
+}
+
+.col3 img:nth-child(1) {
+	height: 25%;
+}
+
+.col3 img:nth-child(2) {
+	height: 25%;
+}
+
+.col3 img:nth-child(3) {
+	height: 50%;
+}
+
+#gallery {
+	padding-bottom: 135px;
+}
+
+#gallery:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/* Team Section */
+#team {
+
+}
+
+#team-member {
+	width: 30%;
+	box-sizing: border-box;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 3%;
+	float: right;
+	}
+
+
+#team:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+#team h1 {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+#team p{
+	margin-bottom: 80px;
+}
+
+ /* Forms ~ Book Now ~ */
+
+.book-now {
+	background-color: #efefef;
+	padding-bottom: 100px;
+	padding-top: 40.95px;
+}
+
+.book-now img {
+	margin: 0px auto;
+	display: block;
+	padding-right: 0px;
+}
+
+.book-now h1 {
+	padding-bottom: 0px;
+	margin-top: 10px;
+}
+
+.book-now h3 {
+	padding-bottom: 80px;
+}
+
+/* original select {
+ 	box-sizing: border-box;
+ 	width: 35%;
+ 	height: 70px;
+ 	border: none;
+ 	font-size: larger;
+ 	margin-left: 1.5%;
+ 	margin-right: ;
+ 	float: left;
+
+ }
+
+ */
+
+select {
+ 	box-sizing: border-box;
+ 	height: 70px;
+ 	border: none;
+ 	font-size: larger;
+ 	margin-left: 1.5%;
+ 	margin-right: ;
+ 	float: left;
+
+
+ }
+
+#select-experience li {
+	list-style: disc;
+}
+
+ #select-experience select {
+ 	background: transparent;
+ 	width: 630px;
+ 	height: 70px;
+ 	line-height: 1;
+ }
+
+ #select-experience {
+ 	width: 610px;
+ 	height: 70px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	background: url(https://cdn.shopify.com/s/files/1/0397/1381/files/down-arrow-2-01.png?8761518921483831912) no-repeat right #fff;
+ }
+
+ #select-location select {
+ 	background: transparent;
+ 	width: 440px;
+ 	padding-left: 30px;
+ }
+
+ #select-location {
+ 	width: 430px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	background: url(https://cdn.shopify.com/s/files/1/0397/1381/files/down-arrow-2-01.png?8761518921483831912) no-repeat right #fff;
+ }
+
+input[type=submit] {
+ 	width: 200px;
+ 	margin: 0px 0px;
+ 	height: 70px;
+ 	border: none;
+ 	background-color: #db3b32;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	color: #fff;
+ }
+
+ input[type=submit]:hover {
+ 	
+ 	background-color: #000;
+ 
+ }
+
+ #submit {
+ 	float: left;
+ 	margin-right: 1.5%;
+ }
+
+.book-now:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/* Contact section */
+
+#contact h1 {
+	padding-bottom: 80px;
+	padding-top: 80px;
+	margin-top: 0px;
+}
+
+#contact {
+	background-color: #fff
+	padding-top: 25px;
+	padding-bottom: 80px;
+}
+
+#phone,
+#email,
+#address {
+	width: 30%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	float: left;
+	margin-bottom: 3%;
+}
+
+#phone img,
+#email img,
+#address img {
+	margin: 0 auto;
+	display: block;
+}
+
+#contact ul {
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open-Sans' , sans-serif;
+	text-align: left;
+}
+
+#contact li {
+	letter-spacing: .5px;
+	padding: 5px 0px;
+}
+#contact:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/* Contact forms */
+
+
+
+ #full-name,
+ #user-email,
+ #user-phone  {
+ 	width: 30%;
+ 	height: 70px;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	margin-right: 1.5%;
+ 	border: none;
+ 	background-color: #efefef;
+ 	padding: 25px 25px;
+ 	box-sizing: border-box;
+ 	font-family: futura, sans-serif;
+ 	font-weight: bold;
+ 	font-size: 14px;
+
+ }
+
+ #user-email img {
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+#user-messege {
+	width: 96%;
+	height: 140px;
+	margin-top: 2%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	box-sizing: border-box;
+	background-color: #efefef;
+	padding: 25px 25px;
+	border: none;
+}
+
+#submit-messege input[type=submit] {
+ 	width: 200px;
+ 	margin: 0 auto;
+ 	height: 50px;
+ 	border: 4px solid #000;
+ 	background-color: #fff;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	color: #000;
+ 	display : block;
+ }
+
+#submit-messege input[type=submit]:hover {
+	background-color: #000;
+	color: #fff; 
+}
+
+
+ #submit-messege {
+ 
+ 	margin: 39.05px auto;
+ 	display: block;
+
+ }
+
+#map {
+	width: 100%;
+	height: 600px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #000;
+	padding-bottom: 25px;
+}
+
+footer ul{
+	display: inline block;
+}
+
+footer li{
+	display: inline-block;
+	margin: 1.5% 1.5%;
+	
+	list-style: none;
+	
+
+}
+
+footer a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #767676;
+	font-size: 13px;
+	font-family:'open sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+ul#sitemap {
+	text-align: center;
+	padding-top: 25px;
+	margin: 0px auto;
+	padding-left: 0px;
+}
+
+
+
+#book-now-foot a{
+	color: #fff;
+}
+
+#book-now-foot a:hover{
+	color: #db3b32;
+}
+.social-footer {
+	padding-left: 0px;
+	text-align: center;
+}
+
+/* adventure-flights page */
+
+/* top section */
+
+#hero-header-1 h1 {
+	font-size: 55px;
+	letter-spacing: 2px;
+	font-family: 'open sans' , sans-serif;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	padding: 60px 20px;
+	width: 700px;
+}
+
+#adventure-flights iframe {
+	padding-left: 19.5px;
+	padding-bottom: 39.05px;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+
+#adventure-flights p{
+	margin-bottom: 20px;
+}
+
+#adventure-flights {
+	padding-top: 35px;
+}
+
+
+/* adventure packages */
+
+
+
+.products-adventure {
+	width: 30%;
+	box-sizing: border-box;
+	background-color: #efefef;
+	padding-bottom: 35px;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 3%;
+}
+
+.products-adventure:nth-child(1) {
+	margin-left: 0%;
+
+}
+
+.products-adventure:nth-child(3) {
+	margin-right: 0%;
+
+}
+
+
+.products-adventure a{
+	margin: 0 auto;
+	padding: 10px 30px;
+	background-color: #46c37d;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	margin-left: 133.8px; /* always aligns to the left of the image, we then take away half the size of the image to perfectly center*/ 
+}
+
+.products-adventure a:hover {
+	background-color: #000;
+	color: #efefef;
+	font-weight: bold;
+}
+
+.products-adventure p {
+	padding: 0 20px;
+	margin-bottom: 0px;
+
+}
+
+.products-adventure h2 {
+	font-size: 20px;
+	margin-top: 40px;
+}
+#adventure-flights:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/* date */
+
+#date iframe {
+	padding: 0px 0px;
+	margin-left: 1.5%;
+}
+
+#date {
+	background-color: #fff;
+	padding-bottom: 80px;
+	height: 800px;
+}
+
+/* Book now option */
+
+select {
+ 	box-sizing: border-box;
+ 	height: 70px;
+ 	border: none;
+ 	font-size: larger;
+ 	margin-left: 1.5%;
+ 	margin-right: ;
+ 	float: left;
+
+
+ }
+
+
+
+ #select-experience-1 select {
+ 	background: transparent;
+ 	width: 390px;
+ 	height: 70px;
+ 	line-height: 1;
+ }
+
+ #select-experience-1 {
+ 	width: 360px;
+ 	height: 70px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	background: url(https://cdn.shopify.com/s/files/1/0397/1381/files/down-arrow-2-01.png?8761518921483831912) no-repeat right #fff;
+ }
+ 
+ #select-time-1 select {
+ 	background: transparent;
+ 	width: 300px;
+ 	height: 70px;
+ 	line-height: 1;
+ }
+
+ #select-time-1 {
+ 	width: 280px;
+ 	height: 70px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	background: url(https://cdn.shopify.com/s/files/1/0397/1381/files/down-arrow-2-01.png?8761518921483831912) no-repeat right #fff;
+ }
+  #select-location-1 select {
+ 	background: transparent;
+ 	width: 390px;
+ 	height: 70px;
+ 	line-height: 1;
+ }
+
+ #select-location-1 {
+ 	width: 370px;
+ 	height: 70px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-left: 1.5%;
+ 	background: url(https://cdn.shopify.com/s/files/1/0397/1381/files/down-arrow-2-01.png?8761518921483831912) no-repeat right #fff;
+ }
+
+
+input[type=submit] {
+ 	width: 200px;
+ 	margin: 0px 0px;
+ 	height: 70px;
+ 	border: none;
+ 	background-color: #db3b32;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	color: #fff;
+ }
+
+ input[type=submit]:hover {
+ 	
+ 	background-color: #000;
+ 
+ }
+
+ #submit {
+ 	float: left;
+ 	margin-right: 1.5%;
+ }
+
+/* sight-seeing */
+
+#hero-header-2 h1 {
+	font-size: 55px;
+	letter-spacing: 2px;
+	font-family: 'open sans' , sans-serif;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	padding: 60px 20px;
+	width: 700px;
+}
+
+/* one off charter */
+
+#hero-header-3 h1 {
+	font-size: 55px;
+	letter-spacing: 2px;
+	font-family: 'open sans' , sans-serif;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	padding: 60px 20px;
+	width: 700px;
+}
+
+/* supply Drops */
+
+#hero-header-4 h1 {
+	font-size: 55px;
+	letter-spacing: 2px;
+	font-family: 'open sans' , sans-serif;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	padding: 60px 20px;
+	width: 700px;
+}
+
